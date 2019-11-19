@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vTiger.CreateOrganizationTest.CreateDuplicateOrganizationUsingQuickCreate"/>
+      <class name="com.vTiger.CreateOrganizationTest.CreateInvalidOrganizationTest"/>
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganizationUsingQuickCreateAndAssignToGroupTest"/>
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganizationAssignToGroupTest"/>
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganizationUsingQuickCreate"/>
+      <class name="com.vTiger.CreateOrganizationTest.CreateDuplicateOrganizationTest"/>
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganizationUsingQuickCreateAssignToUserTest"/>
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganizationTest"/>
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganization_Assign_IndustryTest"/>
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganization_Assign_MemberOfTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
