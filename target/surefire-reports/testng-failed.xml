@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganizationAssignToUserTest">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="assignUser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vTiger.CreateOrganizationTest.CreateOrganizationAssignToUserTest -->
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganizationUsingQuickCreateAndAssignToGroupTest">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="qc_GroupAssign"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vTiger.CreateOrganizationTest.CreateOrganizationUsingQuickCreateAndAssignToGroupTest -->
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganization_Assign_MemberOfTest">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="assignMember"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vTiger.CreateOrganizationTest.CreateOrganization_Assign_MemberOfTest -->
+      <class name="com.vTiger.CreateOrganizationTest.CreateDuplicateOrganizationTest">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="cretaeDuplicate_OrgTest"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vTiger.CreateOrganizationTest.CreateDuplicateOrganizationTest -->
+      <class name="com.vTiger.CreateOrganizationTest.CreateDuplicateOrganizationUsingQuickCreateTest">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="qc_Duplicate_Organization"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vTiger.CreateOrganizationTest.CreateDuplicateOrganizationUsingQuickCreateTest -->
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganization_Assign_IndustryTest">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="assignIndustryTest"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vTiger.CreateOrganizationTest.CreateOrganization_Assign_IndustryTest -->
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganizationAssignToGroupTest">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="assignTOGroupTest"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vTiger.CreateOrganizationTest.CreateOrganizationAssignToGroupTest -->
+      <class name="com.vTiger.CreateOrganizationTest.CreateInvalidOrganizationTest">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="create_Invalid_OrganizationTest"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vTiger.CreateOrganizationTest.CreateInvalidOrganizationTest -->
+      <class name="com.vTiger.CreateOrganizationTest.CreateOrganizationTest">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="createOrganization"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vTiger.CreateOrganizationTest.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
